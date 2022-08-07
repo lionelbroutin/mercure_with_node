@@ -1,0 +1,11 @@
+POST https://localhost/.well-known/mercure HTTP/1.1
+Host: localhost
+Content-Type: application/x-www-form-urlencoded
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJtZXJjdXJlIjp7InB1Ymxpc2giOlsiKiJdLCJzdWJzY3JpYmUiOlsiKiJdfX0.xZcjH9UmowroCk9Z_GU_bi-6jAAZC-pG3nCh2iSqw98
+
+topic=https://intro-mercure.test/users/chat
+
+{
+    "data": "salut"
+}
+
